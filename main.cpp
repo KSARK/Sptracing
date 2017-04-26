@@ -4,8 +4,8 @@
 
 #include <algorithm>
 
-const int height = 1440;
-const int width = 1440;
+const int height = 800;
+const int width = 800;
 
 SDL_Window* win = nullptr;
 SDL_Surface* surface = nullptr;
