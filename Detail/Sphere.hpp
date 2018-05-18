@@ -26,7 +26,7 @@ public:
     virtual Intersect_result intersect(const Ray3& ray)
     {
         auto vec = ray.origin - center;
-        float a0 = vec.sqr_length() - this->get_sqr_radius();
+        float a0 = vec.sqr_length() - get_sqr_radius();
         float d_dot_vec = ray.direction.dot(vec);
 
         if (d_dot_vec <= 0)

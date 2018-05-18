@@ -74,8 +74,6 @@ public:
 
     static Vector3 zero() { return Vector3(0, 0, 0); }
 
-
-private:
     float x, y, z;
 };
 
