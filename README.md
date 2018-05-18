@@ -1,5 +1,5 @@
 # Sptracing
-A Ray Tracing renderer base on [svpng].(https://github.com/miloyip/svpng)
+A Ray Tracing renderer base on [svpng](https://github.com/miloyip/svpng).
 # Rendering result
 ### Depth
 ![D-result](img/depth_test.png)
